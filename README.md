@@ -1,4 +1,4 @@
-![shotsnapp-1634575595 793](https://user-images.githubusercontent.com/77179768/137773986-f4196394-3097-408d-afef-2b28de464211.png)
+![Promina (1)](https://user-images.githubusercontent.com/77179768/137819810-03a8636e-0f01-40f3-b494-95edbd733331.png)
 ## 💻 Sobre o projeto
 Site institucional da empresa (fictícia) Promina, 100% responsivo, com animações que revelam os conteúdos da página à medida que o usuário rola a página para baixo. 
 
