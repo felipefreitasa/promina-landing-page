@@ -1,0 +1,29 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+   font-family: 'Roboto', sans-serif;
+
+   transition: all .3s ease-in-out;
+
+   letter-spacing: 1px;
+
+   scroll-behavior: smooth;
+
+   -webkit-tap-highlight-color: transparent;
+
+   body::-webkit-scrollbar {
+      width: 10px;               /* width of the entire scrollbar */
+    }
+    
+    body::-webkit-scrollbar-track {
+      background: #fff;        /* color of the tracking area */
+    }
+    
+    body::-webkit-scrollbar-thumb {
+      background-color: #fd5b0d;    /* color of the scroll thumb */
+      border-radius: 20px;       /* roundness of the scroll thumb */
+      border: 3px solid #fff;  /* creates padding around scroll thumb */
+    }
+}

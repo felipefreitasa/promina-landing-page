@@ -1,0 +1,42 @@
+.work-section {
+   width: 100%;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+
+   @media (min-width: 0px) {
+      padding: 40px 40px;
+   }
+   @media (min-width: 768px) {
+      padding: 40px 100px;
+   }
+
+   > strong {
+      color: #fd5b0d;
+      font-size: 15px;
+
+      margin-bottom: 20px;
+
+      text-align: center;
+   }
+
+   > h5 {
+      color: #292929;
+      font-size: 30px;
+      font-weight: 700;
+
+      margin-bottom: 40px;
+
+      text-align: center;
+   }
+
+   > div {
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+}

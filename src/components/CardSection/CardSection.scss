@@ -1,0 +1,21 @@
+.card-section {
+   width: 100%;
+
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+
+   @media (min-width: 0px) {
+      padding: 40px 40px;
+
+      justify-content: flex-start;
+
+   }
+   @media (min-width: 768px) {
+      padding: 40px 100px;
+
+      justify-content: center;
+   }
+
+
+}

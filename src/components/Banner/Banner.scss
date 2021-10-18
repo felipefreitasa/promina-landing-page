@@ -1,0 +1,91 @@
+.banner {
+   height: calc(100vh - 60px);
+   width: 100%;
+
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+
+   background-image: url(../Banner/../../assets//images/banner.jpg);
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-attachment: fixed;
+
+   @media (min-width: 0px) {
+      padding: 0 40px;
+   }
+   @media (min-width: 768px) {
+      padding: 0 100px;
+   }
+
+   > div {
+      @media (min-width: 0px) {
+         width: 100%;
+      }
+      @media (min-width: 768px) {
+         width: 50%;
+      }
+      > h1 {
+         color: #fff;
+         font-weight: 700;
+         letter-spacing: 1px;
+
+         margin-bottom: 15px;
+
+         @media (min-width: 0px) {
+            font-size: 30px;
+         }
+         @media (min-width: 768px) {
+            font-size: 50px;
+         }
+      }
+
+      > p {
+         line-height: 26px;
+         letter-spacing: 1px;
+         color: #fff;
+         font-weight: 400;
+         text-align: justify;
+
+         margin-bottom: 15px;
+
+         @media (min-width: 0px) {
+            font-size: 14px;
+         }
+         @media (min-width: 768px) {
+            font-size: 20px;
+         }
+      }
+
+      > button {
+         margin-right: 20px;
+         margin-bottom: 10px;
+
+         padding: 15px 0;
+
+         border: 0;
+         border-radius: 3px;
+
+         font-size: 14px;
+         font-weight: 500;
+         letter-spacing: 1px;
+
+         cursor: pointer;
+
+         width: 120px;
+      }
+
+      .btn-1 {
+         background-color: #fd5b0d;
+
+         color: #fff;
+      }
+      .btn-2 {
+         background-color: #fff;
+
+         color: #292929;
+      }
+   }
+}
